@@ -1,3 +1,5 @@
 leaters = {'apple': 'яблоко',
            'tomato': 'помидор',
-           'cherry': 'черешня'}
+           'cherry': 'вишня',
+           'banane': 'банан',
+           'apricot': 'абрикос'}
