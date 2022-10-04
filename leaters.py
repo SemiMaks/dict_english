@@ -1,0 +1,1 @@
+leaters = {'apple':'яблоко', 'tomato':'помидор'}
