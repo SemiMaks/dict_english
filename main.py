@@ -9,7 +9,8 @@ def train():
     try:
         scores = 0
         ans = 0
-        num = int(input('Сколько слов готов перевести?:'))
+        print('Сколько слов готов перевести?:')
+        num = input()
         dict_k = leaters.keys()
         print(dict_k)
 
@@ -37,7 +38,7 @@ def train():
                 print('Верно отгадано слов: ', scores)
                 break
 
-            print('Всего ты отгадал ', scores, 'слов(а)!')
+            print('Всего ты отгадал ', scores, 'слов(а) из', num, 'слов!')
             print()
     except Exception:
         print('Ошибка при выполнении программы!!!')
