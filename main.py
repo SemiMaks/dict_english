@@ -3,24 +3,31 @@ import random
 from leaters import leaters
 
 scores = 0
+hr = '-' * 20
 
 
 def train():
     try:
         scores = 0
         ans = 0
+        print(hr + hr)
+        print('Приветствую в языковом тренажёре!')
+        print(hr + hr)
         print('Сколько слов готов перевести?:')
-        num = input()
+        num = int(input())
+
+        print('.....проверка подгружаемого словаря.....')
+        print('Ключи:')
         dict_k = leaters.keys()
         print(dict_k)
 
         dict_v = leaters.values()
+        print('Значения:')
         print(dict_v)
         print()
 
-        print('Приветствую тебя в языковом тренажёре!')
-        print('Требуется перевести ', num, ' слов(a).')
-        print('Что ж, приступим. Удачи!)')
+        print('Что ж, начинаем отгадывать ', num, ' слов(a).')
+        print('Приступим. Удачи!)')
         print()
 
         while ans != num:
@@ -48,3 +55,5 @@ def train():
 
 train()
 print('Благодарю за участие! Пока!')
+print(hr)
+input("Для выхода нажми любую клавишу...")
