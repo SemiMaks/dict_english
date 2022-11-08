@@ -1,4 +1,5 @@
 import random
+
 from art import *
 
 from leaters import leaters
@@ -6,14 +7,6 @@ from leaters import leaters
 scores = 0
 hr = '-' * 20
 status = '1'
-
-
-#
-# def works():
-#     if status == 1:
-#         train()
-#     else:
-#         print('Хорошего вам Дня!')
 
 
 def train():
