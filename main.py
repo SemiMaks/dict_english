@@ -6,6 +6,15 @@ scores = 0
 hr = '-' * 20
 status = '1'
 
+
+#
+# def works():
+#     if status == 1:
+#         train()
+#     else:
+#         print('Хорошего вам Дня!')
+
+
 def train():
     try:
         status = 1
@@ -45,7 +54,7 @@ def train():
                     print('Не правильно!')
                     print(str.capitalize(key), ' это -', let)
                     print('Верно отгадано слов: ', scores)
-                    print('Чтобы повторить нажмите - 1, для завершения работы программы - 0')
+                    print('Попытаться ещё раз нажми - 1, для завершения работы программы - 0')
                     status = int(input())
                     continue
 
