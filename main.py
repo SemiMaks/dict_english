@@ -1,4 +1,5 @@
 import random
+from art import *
 
 from leaters import leaters
 
@@ -21,6 +22,7 @@ def train():
         while status >= 1:
             scores = 0
             ans = 0
+            tprint("dict_english\n",font="white_bubble")
             print(hr + hr)
             print('Приветствую в языковом тренажёре!')
             print(hr + hr)
