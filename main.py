@@ -6,15 +6,6 @@ scores = 0
 hr = '-' * 20
 status = '1'
 
-
-#
-# def works():
-#     if status == 1:
-#         train()
-#     else:
-#         print('Хорошего вам Дня!')
-
-
 def train():
     try:
         status = 1
@@ -27,19 +18,19 @@ def train():
             print('Сколько слов готов перевести?:')
             num = int(input())
 
-            print('.....проверка подгружаемого словаря.....')
-            dict_k = leaters.keys()
-            print('Ключи:')
-            print(dict_k)
-
-            dict_v = leaters.values()
-            print('Значения:')
-            print(dict_v)
-            print()
+            # print('.....проверка подгружаемого словаря.....')
+            # dict_k = leaters.keys()
+            # print('Ключи:')
+            # print(dict_k)
+            #
+            # dict_v = leaters.values()
+            # print('Значения:')
+            # print(dict_v)
+            # print()
 
             print('Что ж, начинаем отгадывать ', num, ' слов(a).')
             print('Приступим. Удачи!)')
-            print(status)
+            # print(status)
 
             while ans != num:
                 res, let = key, val = random.choice(list(leaters.items()))
